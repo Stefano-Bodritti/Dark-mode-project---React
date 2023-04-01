@@ -11,7 +11,7 @@ function App() {
           <button className='btn'>toggle</button>
         </div>
       </nav>
-      <section className='article'>
+      <section className='articles'>
         {data.map((item) => {
           return <Article key={item.id} {...item} />
         })}
